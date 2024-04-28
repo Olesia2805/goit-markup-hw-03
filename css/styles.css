@@ -92,6 +92,10 @@ img {
   align-items: flex-start;
 } */
 
+.header {
+  border-bottom: 1px solid var(--cornflower);
+}
+
 .header-list-link {
   font-weight: 500;
 }
@@ -109,33 +113,43 @@ img {
 }
 .footer {
   background-color: var(--navy-blue);
+  height: 312px;
 }
 .logo-footer {
   color: var(--cloud);
 }
 .footer-text {
   color: var(--cloud);
+  width: 264px;
 }
 
 /* home */
 .main-first {
   background-color: var(--navy-blue);
+  height: 600px;
 }
 .main-first-title {
   font-size: 56px;
   line-height: 1.07;
   text-align: center;
   color: var(--white);
+  margin-bottom: 48px;
 }
 .main-button-home {
   font-weight: 500;
   letter-spacing: 0.04em;
   color: var(--white);
   background-color: var(--iris);
+  padding: 16px 32px;
+  border-radius: 4px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 .main-button-home:hover,
 .main-button-home:focus {
   background-color: var(--ocean);
+}
+.main-benefits-item {
+  width: 264px;
 }
 .main-benefits-point {
   font-weight: 500;
@@ -145,6 +159,11 @@ img {
 .main-benefits-text {
   color: var(--slate);
 }
+
+.main-doing {
+  margin-bottom: 120px;
+}
+
 .main-doing-title {
   font-size: 36px;
   line-height: 1.11;
@@ -153,6 +172,7 @@ img {
 }
 .main-team {
   background-color: var(--cloud);
+  /* height: 732px; */
 }
 .main-team-title {
   font-size: 36px;
@@ -179,6 +199,10 @@ img {
 .main-section-button {
   font-weight: 500;
   letter-spacing: 0.04em;
+  margin-bottom: 120px;
+}
+.main-switcher-portfolio {
+  margin-bottom: 72px;
 }
 .main-button-portfolio {
   color: var(--iris);
@@ -199,10 +223,15 @@ img {
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 2px 2px 0px rgba(0, 0, 0, 0.12);
 }
 
-/* .main-list-pic-item {
+.main-list-pic-item {
   border: 1px solid var(--cornflower);
   border-top: none;
-} */
+  margin-bottom: 48px;
+}
+
+.description {
+  margin: 32px 0;
+}
 
 .main-list-pic-title {
   font-weight: 500;
