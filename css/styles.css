@@ -184,7 +184,7 @@ img {
   justify-content: center;
 }
 .main-benefits-item {
-  max-width: 264px;
+  width: calc((100% - 24px * 3) / 4);
 }
 .main-benefits-point {
   font-weight: 500;
@@ -282,11 +282,13 @@ img {
 }
 .main-list-pic {
   display: flex;
+  flex-wrap: wrap;
   column-gap: 24px;
   row-gap: 48px;
-  flex-wrap: wrap;
 }
-
+.main-list-pic-item {
+  width: calc((100% - 24px * 2) / 3);
+}
 .description {
   padding: 32px 16px;
   border: 1px solid var(--cornflower);
