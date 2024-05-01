@@ -238,13 +238,13 @@ img {
     0px 2px 1px 0px rgba(46, 47, 66, 0.08);
 }
 .about-person {
-  margin: 32px auto;
+  padding: 32px 16px;
 }
 .main-team-person {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
-  margin-bottom: 8px;
+  padding-bottom: 8px;
 }
 .main-team-text {
   color: var(--slate);
